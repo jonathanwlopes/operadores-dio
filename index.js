@@ -31,12 +31,12 @@ const checkResult = (num1, num2) => {
     return `Os números ${num1} e ${num2} não são iguais! sua soma é ${resultSum} que é ${result10} que 10 e ${result20} que 20.`
   } else if (isEquality) {
     if (isResultEquality) {
-      return `Os números ${num1} e ${num2} não são iguais! sua soma é ${resultSum}.`
+      return `Os números ${num1} e ${num2} são iguais! sua soma é ${resultSum}.`
     }
     return `Os números ${num1} e ${num2} são iguais! sua soma é ${resultSum} que é ${result10} que 10 e ${result20} que 20.`
   }
 }
 
-const result = checkResult(0, 1)
+const result = checkResult(10, 10)
 
 console.log(result)
